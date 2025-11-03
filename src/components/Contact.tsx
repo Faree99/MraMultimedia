@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-20 bg-gradient-to-br from-white via-[#f9fafb] to-[#eef2f6]"
+      className="py-20 bg-linear-to-br from-white via-[#f9fafb] to-[#eef2f6]"
     >
       <div className="container mx-auto px-6">
         {/* Header */}
@@ -108,7 +108,7 @@ export default function Contact() {
 
             <button
               type="submit"
-              className="w-full bg-gradient-to-r from-mra-orange to-mra-blue text-white py-3 rounded-lg font-medium hover:opacity-90"
+              className="w-full bg-linear-to-r from-mra-orange to-mra-blue text-white py-3 rounded-lg font-medium hover:opacity-90"
             >
               Send Message
             </button>

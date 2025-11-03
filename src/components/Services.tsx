@@ -38,7 +38,7 @@ export default function Services() {
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="p-6 bg-gradient-to-br from-white to-gray-50 rounded-2xl shadow hover:shadow-lg hover:-translate-y-1 border border-gray-100"
+                className="p-6 bg-linear-to-br from-white to-gray-50 rounded-2xl shadow hover:shadow-lg hover:-translate-y-1 border border-gray-100"
               >
                 <div className="flex justify-center items-center w-14 h-14 mx-auto bg-mra-blue/10 rounded-full mb-5">
                   <Icon className="w-7 h-7 text-mra-blue" />

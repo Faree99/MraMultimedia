@@ -75,7 +75,7 @@ export default function Portfolio() {
                 height={300}
                 className="object-cover w-full h-64 group-hover:scale-110 transition-transform duration-500"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300" />
               <div className="absolute bottom-4 left-4 text-white">
                 <h3 className="text-lg font-semibold">{item.title}</h3>
                 <p className="text-sm text-gray-200">{item.category}</p>

@@ -8,7 +8,7 @@ import { FaFacebook } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="relative bg-gradient-to-r from-[#ff7a1a]/10 via-white to-[#4169e1]/10 text-gray-800 py-12 mt-20">
+    <footer className="relative bg-linear-to-r from-[#ff7a1a]/10 via-white to-[#4169e1]/10 text-gray-800 py-12 mt-20">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Brand */}
         <motion.div

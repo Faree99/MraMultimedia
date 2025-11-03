@@ -295,7 +295,7 @@ export default function ProductCatalog() {
   });
 
   return (
-    <section id="products" className="py-20 bg-gradient-to-b from-white to-[#f9fafc]">
+    <section id="products" className="py-20 bg-linear-to-b from-white to-[#f9fafc]">
       <div className="container mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -334,7 +334,7 @@ export default function ProductCatalog() {
                   placeholder="Search products..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="flex-grow px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-mra-orange"
+                  className="grow px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-mra-orange"
                 />
 
                 {/* Category Filter */}
@@ -377,9 +377,9 @@ export default function ProductCatalog() {
                 />
               </div>
 
-              <div className="p-5 flex flex-col flex-grow">
+              <div className="p-5 flex flex-col grow">
                 <h3 className="text-lg font-semibold text-gray-900">{product.name}</h3>
-                <p className="text-gray-600 text-sm mt-1 flex-grow">{product.description}</p>
+                <p className="text-gray-600 text-sm mt-1 grow">{product.description}</p>
                 <p className="mt-3 text-mra-blue font-bold text-lg">{product.price}</p>
 
                 {/* WhatsApp CTA */}

@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-20 bg-gradient-to-br from-white via-[#f9fafb] to-[#eef2f6]"
+      className="py-20 bg-linear-to-br from-white via-[#f9fafb] to-[#eef2f6]"
     >
       <div className="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-12">
         {/* Left Side - Image */}

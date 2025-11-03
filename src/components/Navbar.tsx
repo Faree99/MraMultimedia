@@ -82,7 +82,7 @@ export default function Navbar() {
                   activeSection === id
                     ? "text-mra-orange font-semibold after:w-full"
                     : "text-gray-700 hover:text-mra-orange after:w-0 hover:after:w-full"
-                } after:block after:h-[2px] after:bg-mra-orange after:transition-all after:duration-300 after:rounded-full after:mx-auto`}
+                } after:block after:h-0.5 after:bg-mra-orange after:transition-all after:duration-300 after:rounded-full after:mx-auto`}
               >
                 {label}
               </a>
