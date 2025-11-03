@@ -55,11 +55,11 @@ export default function Footer() {
           <ul className="space-y-3 text-gray-600">
             <li className="flex items-center gap-2">
               <Phone className="w-5 h-5 text-mra-orange" />
-              <span>+234 812 345 6789</span>
+              <span>+234 902 325 7308</span>
             </li>
             <li className="flex items-center gap-2">
               <Mail className="w-5 h-5 text-mra-orange" />
-              <span>info@mramultimedia.com</span>
+              <span>mramultimedia225@gmail.com</span>
             </li>
           </ul>
         </motion.div>
