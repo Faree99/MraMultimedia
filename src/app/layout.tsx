@@ -17,6 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>MRA Multimedia</title>
+        <link rel="icon" href="/favicon.png" />
+      </head>
       <body className={inter.className}>
         <Navbar />
         {children}
