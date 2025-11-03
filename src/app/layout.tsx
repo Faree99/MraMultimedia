@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "MRA Multimedia | Printing & Branding",
   description: "Creative printing and branding solutions — business cards, banners, T-shirts, and more.",
+   icons: {
+    icon: "/favicon.png", // <-- this sets your favicon
+  },
 };
 
 export default function RootLayout({
@@ -17,10 +20,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <title>MRA Multimedia</title>
-        <link rel="icon" href="/favicon.png" />
-      </head>
       <body className={inter.className}>
         <Navbar />
         {children}
